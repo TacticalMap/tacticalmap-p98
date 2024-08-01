@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p98",
+  "id": "tacticalmap-p98",
+  "title": "Battlefields",
+  "description": "Maps for battle among troops.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "battlefields",
+      "label": "Battlefields",
+      "path": "packs/battlefields.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "battlefields",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p98/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p98/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
